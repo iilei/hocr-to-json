@@ -94,5 +94,16 @@
     </p>
    </div>
   </div>
+
+<div class='ocr_page' id='page_2' title='image "phototest.tif"; bbox 0 0 640 480; ppageno 1'>
+<div class='ocr_carea' id='block_2_1' title="bbox 36 92 618 361">
+<p class='ocr_par' id='par_2_2' lang='eng' title="bbox 36 92 618 184">
+<span class='ocr_line' id='line_2_2' title="bbox 36 92 580 122; baseline 0 -6; x_size 30; x_descenders 6; x_ascenders 6">
+<span class='ocrx_word' id='word_2_2' title='bbox 36 92 96 116; x_wconf 91'>This</span>
+</span>
+</p>
+</div>
+</div>
+
  </body>
 </html>

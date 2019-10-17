@@ -1,0 +1,1204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`runner should invoke the desired task 1`] = `
+Object {
+  "ocrSystem": "tesseract 4.1.0-rc1-752-g8b69",
+  "pages": Array [
+    Object {
+      "bbox": Array [
+        Array [
+          0,
+          0,
+        ],
+        Array [
+          640,
+          480,
+        ],
+      ],
+      "careas": Array [
+        Object {
+          "bbox": Array [
+            Array [
+              36,
+              92,
+            ],
+            Array [
+              618,
+              361,
+            ],
+          ],
+          "id": "block_1_1",
+          "pars": Array [
+            Object {
+              "id": "par_1_1",
+              "lang": "eng",
+              "lines": Array [
+                Object {
+                  "baseline": Array [
+                    0,
+                    -6,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      36,
+                      92,
+                    ],
+                    Array [
+                      580,
+                      122,
+                    ],
+                  ],
+                  "id": "line_1_1",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          36,
+                          92,
+                        ],
+                        Array [
+                          96,
+                          116,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "This",
+                      "id": "word_1_1",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          109,
+                          92,
+                        ],
+                        Array [
+                          129,
+                          116,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "is",
+                      "id": "word_1_2",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          141,
+                          98,
+                        ],
+                        Array [
+                          156,
+                          116,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "a",
+                      "id": "word_1_3",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          169,
+                          92,
+                        ],
+                        Array [
+                          201,
+                          116,
+                        ],
+                      ],
+                      "confidence": 90,
+                      "content": "lot",
+                      "id": "word_1_4",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          212,
+                          92,
+                        ],
+                        Array [
+                          240,
+                          116,
+                        ],
+                      ],
+                      "confidence": 93,
+                      "content": "of",
+                      "id": "word_1_5",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          251,
+                          92,
+                        ],
+                        Array [
+                          282,
+                          116,
+                        ],
+                      ],
+                      "confidence": 93,
+                      "content": "12",
+                      "id": "word_1_6",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          296,
+                          92,
+                        ],
+                        Array [
+                          364,
+                          122,
+                        ],
+                      ],
+                      "confidence": 90,
+                      "content": "point",
+                      "id": "word_1_7",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          374,
+                          93,
+                        ],
+                        Array [
+                          427,
+                          116,
+                        ],
+                      ],
+                      "confidence": 93,
+                      "content": "text",
+                      "id": "word_1_8",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          437,
+                          93,
+                        ],
+                        Array [
+                          463,
+                          116,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "to",
+                      "id": "word_1_9",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          474,
+                          93,
+                        ],
+                        Array [
+                          526,
+                          116,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "test",
+                      "id": "word_1_10",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          536,
+                          92,
+                        ],
+                        Array [
+                          580,
+                          116,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "the",
+                      "id": "word_1_11",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 6,
+                  "xSize": 30,
+                },
+                Object {
+                  "baseline": Array [
+                    0,
+                    -7,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      36,
+                      126,
+                    ],
+                    Array [
+                      618,
+                      157,
+                    ],
+                  ],
+                  "id": "line_1_2",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          36,
+                          132,
+                        ],
+                        Array [
+                          81,
+                          150,
+                        ],
+                      ],
+                      "confidence": 90,
+                      "content": "ocr",
+                      "id": "word_1_12",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          91,
+                          126,
+                        ],
+                        Array [
+                          160,
+                          150,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "code",
+                      "id": "word_1_13",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          172,
+                          126,
+                        ],
+                        Array [
+                          223,
+                          150,
+                        ],
+                      ],
+                      "confidence": 90,
+                      "content": "and",
+                      "id": "word_1_14",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          236,
+                          132,
+                        ],
+                        Array [
+                          286,
+                          150,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "see",
+                      "id": "word_1_15",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          299,
+                          126,
+                        ],
+                        Array [
+                          314,
+                          150,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "if",
+                      "id": "word_1_16",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          325,
+                          126,
+                        ],
+                        Array [
+                          339,
+                          150,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "it",
+                      "id": "word_1_17",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          348,
+                          126,
+                        ],
+                        Array [
+                          433,
+                          150,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "works",
+                      "id": "word_1_18",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          445,
+                          132,
+                        ],
+                        Array [
+                          478,
+                          150,
+                        ],
+                      ],
+                      "confidence": 87,
+                      "content": "on",
+                      "id": "word_1_19",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          500,
+                          126,
+                        ],
+                        Array [
+                          529,
+                          150,
+                        ],
+                      ],
+                      "confidence": 87,
+                      "content": "all",
+                      "id": "word_1_20",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          541,
+                          127,
+                        ],
+                        Array [
+                          618,
+                          157,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "types",
+                      "id": "word_1_21",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 7,
+                  "xSize": 31,
+                },
+                Object {
+                  "baseline": Array [
+                    0,
+                    0,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      36,
+                      160,
+                    ],
+                    Array [
+                      223,
+                      184,
+                    ],
+                  ],
+                  "id": "line_1_3",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          36,
+                          160,
+                        ],
+                        Array [
+                          64,
+                          184,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "of",
+                      "id": "word_1_22",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          72,
+                          160,
+                        ],
+                        Array [
+                          113,
+                          184,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "file",
+                      "id": "word_1_23",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          123,
+                          160,
+                        ],
+                        Array [
+                          223,
+                          184,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "format.",
+                      "id": "word_1_24",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 7.2148418,
+                  "xSize": 31.214842,
+                },
+              ],
+            },
+            Object {
+              "id": "par_1_2",
+              "lang": "eng",
+              "lines": Array [
+                Object {
+                  "baseline": Array [
+                    0,
+                    -7,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      36,
+                      194,
+                    ],
+                    Array [
+                      585,
+                      225,
+                    ],
+                  ],
+                  "id": "line_1_4",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          36,
+                          194,
+                        ],
+                        Array [
+                          91,
+                          218,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "The",
+                      "id": "word_1_25",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          102,
+                          194,
+                        ],
+                        Array [
+                          177,
+                          224,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "quick",
+                      "id": "word_1_26",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          189,
+                          194,
+                        ],
+                        Array [
+                          274,
+                          218,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "brown",
+                      "id": "word_1_27",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          287,
+                          194,
+                        ],
+                        Array [
+                          339,
+                          225,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "dog",
+                      "id": "word_1_28",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          348,
+                          194,
+                        ],
+                        Array [
+                          456,
+                          225,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "jumped",
+                      "id": "word_1_29",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          468,
+                          200,
+                        ],
+                        Array [
+                          531,
+                          218,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "over",
+                      "id": "word_1_30",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          540,
+                          194,
+                        ],
+                        Array [
+                          585,
+                          218,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "the",
+                      "id": "word_1_31",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 7,
+                  "xSize": 31,
+                },
+                Object {
+                  "baseline": Array [
+                    0,
+                    -7,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      37,
+                      228,
+                    ],
+                    Array [
+                      585,
+                      259,
+                    ],
+                  ],
+                  "id": "line_1_5",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          37,
+                          228,
+                        ],
+                        Array [
+                          92,
+                          259,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "lazy",
+                      "id": "word_1_32",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          103,
+                          228,
+                        ],
+                        Array [
+                          153,
+                          252,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "fox.",
+                      "id": "word_1_33",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          165,
+                          228,
+                        ],
+                        Array [
+                          220,
+                          252,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "The",
+                      "id": "word_1_34",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          232,
+                          228,
+                        ],
+                        Array [
+                          307,
+                          258,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "quick",
+                      "id": "word_1_35",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          319,
+                          228,
+                        ],
+                        Array [
+                          404,
+                          252,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "brown",
+                      "id": "word_1_36",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          417,
+                          228,
+                        ],
+                        Array [
+                          468,
+                          259,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "dog",
+                      "id": "word_1_37",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          478,
+                          228,
+                        ],
+                        Array [
+                          585,
+                          259,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "jumped",
+                      "id": "word_1_38",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 7,
+                  "xSize": 31,
+                },
+                Object {
+                  "baseline": Array [
+                    0,
+                    -7,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      36,
+                      262,
+                    ],
+                    Array [
+                      597,
+                      293,
+                    ],
+                  ],
+                  "id": "line_1_6",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          36,
+                          268,
+                        ],
+                        Array [
+                          99,
+                          286,
+                        ],
+                      ],
+                      "confidence": 90,
+                      "content": "over",
+                      "id": "word_1_39",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          109,
+                          262,
+                        ],
+                        Array [
+                          153,
+                          286,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "the",
+                      "id": "word_1_40",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          165,
+                          262,
+                        ],
+                        Array [
+                          221,
+                          293,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "lazy",
+                      "id": "word_1_41",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          231,
+                          262,
+                        ],
+                        Array [
+                          281,
+                          286,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "fox.",
+                      "id": "word_1_42",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          294,
+                          262,
+                        ],
+                        Array [
+                          349,
+                          286,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "The",
+                      "id": "word_1_43",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          360,
+                          262,
+                        ],
+                        Array [
+                          435,
+                          292,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "quick",
+                      "id": "word_1_44",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          447,
+                          262,
+                        ],
+                        Array [
+                          532,
+                          286,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "brown",
+                      "id": "word_1_45",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          545,
+                          262,
+                        ],
+                        Array [
+                          597,
+                          293,
+                        ],
+                      ],
+                      "confidence": 90,
+                      "content": "dog",
+                      "id": "word_1_46",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 7,
+                  "xSize": 31,
+                },
+                Object {
+                  "baseline": Array [
+                    0,
+                    -7,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      43,
+                      296,
+                    ],
+                    Array [
+                      561,
+                      327,
+                    ],
+                  ],
+                  "id": "line_1_7",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          43,
+                          296,
+                        ],
+                        Array [
+                          150,
+                          327,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "jumped",
+                      "id": "word_1_47",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          162,
+                          302,
+                        ],
+                        Array [
+                          226,
+                          320,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "over",
+                      "id": "word_1_48",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          235,
+                          296,
+                        ],
+                        Array [
+                          279,
+                          320,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "the",
+                      "id": "word_1_49",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          292,
+                          296,
+                        ],
+                        Array [
+                          347,
+                          327,
+                        ],
+                      ],
+                      "confidence": 88,
+                      "content": "lazy",
+                      "id": "word_1_50",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          357,
+                          296,
+                        ],
+                        Array [
+                          407,
+                          320,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "fox.",
+                      "id": "word_1_51",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          420,
+                          296,
+                        ],
+                        Array [
+                          475,
+                          320,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "The",
+                      "id": "word_1_52",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          486,
+                          296,
+                        ],
+                        Array [
+                          561,
+                          326,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "quick",
+                      "id": "word_1_53",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 7,
+                  "xSize": 31,
+                },
+                Object {
+                  "baseline": Array [
+                    0,
+                    -7,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      37,
+                      330,
+                    ],
+                    Array [
+                      561,
+                      361,
+                    ],
+                  ],
+                  "id": "line_1_8",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          37,
+                          330,
+                        ],
+                        Array [
+                          122,
+                          354,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "brown",
+                      "id": "word_1_54",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          135,
+                          330,
+                        ],
+                        Array [
+                          187,
+                          361,
+                        ],
+                      ],
+                      "confidence": 92,
+                      "content": "dog",
+                      "id": "word_1_55",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          196,
+                          330,
+                        ],
+                        Array [
+                          304,
+                          361,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "jumped",
+                      "id": "word_1_56",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          316,
+                          336,
+                        ],
+                        Array [
+                          379,
+                          354,
+                        ],
+                      ],
+                      "confidence": 90,
+                      "content": "over",
+                      "id": "word_1_57",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          388,
+                          330,
+                        ],
+                        Array [
+                          433,
+                          354,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "the",
+                      "id": "word_1_58",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          445,
+                          330,
+                        ],
+                        Array [
+                          500,
+                          361,
+                        ],
+                      ],
+                      "confidence": 89,
+                      "content": "lazy",
+                      "id": "word_1_59",
+                    },
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          511,
+                          330,
+                        ],
+                        Array [
+                          561,
+                          354,
+                        ],
+                      ],
+                      "confidence": 90,
+                      "content": "fox.",
+                      "id": "word_1_60",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 7,
+                  "xSize": 31,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      "id": "page_1",
+      "image": "phototest.tif",
+      "ppageno": 0,
+    },
+    Object {
+      "bbox": Array [
+        Array [
+          0,
+          0,
+        ],
+        Array [
+          640,
+          480,
+        ],
+      ],
+      "careas": Array [
+        Object {
+          "bbox": Array [
+            Array [
+              36,
+              92,
+            ],
+            Array [
+              618,
+              361,
+            ],
+          ],
+          "id": "block_2_1",
+          "pars": Array [
+            Object {
+              "id": "par_2_2",
+              "lang": "eng",
+              "lines": Array [
+                Object {
+                  "baseline": Array [
+                    0,
+                    -6,
+                  ],
+                  "bbox": Array [
+                    Array [
+                      36,
+                      92,
+                    ],
+                    Array [
+                      580,
+                      122,
+                    ],
+                  ],
+                  "id": "line_2_2",
+                  "words": Array [
+                    Object {
+                      "bbox": Array [
+                        Array [
+                          36,
+                          92,
+                        ],
+                        Array [
+                          96,
+                          116,
+                        ],
+                      ],
+                      "confidence": 91,
+                      "content": "This",
+                      "id": "word_2_2",
+                    },
+                  ],
+                  "xAscenders": 6,
+                  "xDescenders": 6,
+                  "xSize": 30,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      "id": "page_2",
+      "image": "phototest.tif",
+      "ppageno": 1,
+    },
+  ],
+}
+`;

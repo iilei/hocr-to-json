@@ -4,8 +4,8 @@ const defautArgs = ['hocr-json', '*.hocr']
 
 describe('runner', () => {
   it('should invoke the desired task', async () => {
-    await runner(...defautArgs)
-    console.log(23)
+    const result = await runner(...defautArgs)
+    expect(result).toMatchSnapshot()
 
     // const taskMock = require('../tasks').myTask
     // const { appendBasePath, setAuthToken } = require('../modules/axiosInstance')
