@@ -1,0 +1,11 @@
+src
+coverage
+*.tgz
+**/*.spec.js
+.*
+
+jestsetup.js
+locales.json
+spelling.dic
+**/__mocks__/**
+intl

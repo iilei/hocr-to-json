@@ -1,0 +1,94 @@
+{
+  "name": "hocr-to-json",
+  "version": "0.13.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "tdd": "test --watch",
+    "test": "jest",
+    "start": "node --require @babel/register ./src/index.js ",
+    "eslint": "eslint src .babelrc.js",
+    "prebuild": "npm run eslint && npm test && node_modules/.bin/del lib ;",
+    "build": "NODE_ENV=production babel src --out-dir lib --ignore \"src/**/*.spec.js\" --ignore \"**/__mocks__/**\"",
+    "prepack": "npm run build",
+    "postbuild": "chmod +x lib/index.js",
+    "bin": "node --require dotenv/config ./lib/index.js",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags"
+  },
+  "bin": {
+    "hocr-to-json": "lib/index.js"
+  },
+  "author": "Jochen Preusche <iilei@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "camaro": "^4.1.2",
+    "globby": "^10.0.1",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-shebang": "^1.0.0",
+    "del-cli": "^3.0.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.8",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.1",
+    "prettier": "^1.18.2"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "<rootDir>/lib/"
+    ],
+    "coverageDirectory": "<rootDir>/coverage",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!coverage/**/*",
+      "!lib/**/*",
+      "!**/__mocks__/**",
+      "!**/*.spec.js"
+    ],
+    "setupFilesAfterEnv": [],
+    "rootDir": "./",
+    "testEnvironment": "node",
+    "clearMocks": true
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/ii13i/hocr-to-json"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "npm run eslint -- --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test -- --coverage #"
+    }
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+coverage/
+lib
+
+*.tgz
+
+# Yarn
+.yarnclean
+
+# Logs
+logs
+*.log
