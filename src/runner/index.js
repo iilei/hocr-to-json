@@ -1,4 +1,5 @@
 import fs from 'fs'
+import JSONstringify from 'json-stable-stringify';
 
 import { transform } from 'camaro'
 import {
@@ -26,6 +27,8 @@ const runner = async () => {
   traverse(result, castToArrayOfNumbers, 'baseline')
   traverse(result, unQuote, 'image')
   traverse(result, parseFloatOrNull, ...numberProps)
+
+  fs.writeFileSync('stub/phototest.json', JSONstringify(result, { space: '  ' }), {encoding: 'utf-8'})
 
   return result
 }

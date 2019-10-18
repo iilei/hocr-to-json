@@ -1,1131 +1,1131 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`runner should invoke the desired task 1`] = `
-Object {
-  "contentType": "text/html;charset=utf-8",
-  "ocrCapabilities": "ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf",
-  "ocrSystem": "tesseract 4.1.0-rc1-752-g8b69",
-  "pages": Array [
-    Object {
-      "bbox": Array [
-        Array [
+"{
+  \\"contentType\\": \\"text/html;charset=utf-8\\",
+  \\"ocrCapabilities\\": \\"ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf\\",
+  \\"ocrSystem\\": \\"tesseract 4.1.0-rc1-752-g8b69\\",
+  \\"pages\\": [
+    {
+      \\"bbox\\": [
+        [
           0,
-          0,
+          0
         ],
-        Array [
+        [
           640,
-          480,
-        ],
+          480
+        ]
       ],
-      "careas": Array [
-        Object {
-          "bbox": Array [
-            Array [
+      \\"careas\\": [
+        {
+          \\"bbox\\": [
+            [
               36,
-              92,
+              92
             ],
-            Array [
+            [
               618,
-              361,
-            ],
+              361
+            ]
           ],
-          "id": "block_1_1",
-          "pars": Array [
-            Object {
-              "id": "par_1_1",
-              "lang": "eng",
-              "lines": Array [
-                Object {
-                  "baseline": Array [
+          \\"id\\": \\"block_1_1\\",
+          \\"pars\\": [
+            {
+              \\"id\\": \\"par_1_1\\",
+              \\"lang\\": \\"eng\\",
+              \\"lines\\": [
+                {
+                  \\"baseline\\": [
                     0,
-                    -6,
+                    -6
                   ],
-                  "bbox": Array [
-                    Array [
+                  \\"bbox\\": [
+                    [
                       36,
-                      92,
+                      92
                     ],
-                    Array [
+                    [
                       580,
-                      122,
-                    ],
+                      122
+                    ]
                   ],
-                  "id": "line_1_1",
-                  "words": Array [
-                    Object {
-                      "bbox": Array [
-                        Array [
+                  \\"id\\": \\"line_1_1\\",
+                  \\"words\\": [
+                    {
+                      \\"bbox\\": [
+                        [
                           36,
-                          92,
+                          92
                         ],
-                        Array [
+                        [
                           96,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "This",
-                      "id": "word_1_1",
-                      "xWconf": 91,
+                      \\"content\\": \\"This\\",
+                      \\"id\\": \\"word_1_1\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           109,
-                          92,
+                          92
                         ],
-                        Array [
+                        [
                           129,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "is",
-                      "id": "word_1_2",
-                      "xWconf": 92,
+                      \\"content\\": \\"is\\",
+                      \\"id\\": \\"word_1_2\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           141,
-                          98,
+                          98
                         ],
-                        Array [
+                        [
                           156,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "a",
-                      "id": "word_1_3",
-                      "xWconf": 92,
+                      \\"content\\": \\"a\\",
+                      \\"id\\": \\"word_1_3\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           169,
-                          92,
+                          92
                         ],
-                        Array [
+                        [
                           201,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "lot",
-                      "id": "word_1_4",
-                      "xWconf": 90,
+                      \\"content\\": \\"lot\\",
+                      \\"id\\": \\"word_1_4\\",
+                      \\"xWconf\\": 90
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           212,
-                          92,
+                          92
                         ],
-                        Array [
+                        [
                           240,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "of",
-                      "id": "word_1_5",
-                      "xWconf": 93,
+                      \\"content\\": \\"of\\",
+                      \\"id\\": \\"word_1_5\\",
+                      \\"xWconf\\": 93
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           251,
-                          92,
+                          92
                         ],
-                        Array [
+                        [
                           282,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "12",
-                      "id": "word_1_6",
-                      "xWconf": 93,
+                      \\"content\\": \\"12\\",
+                      \\"id\\": \\"word_1_6\\",
+                      \\"xWconf\\": 93
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           296,
-                          92,
+                          92
                         ],
-                        Array [
+                        [
                           364,
-                          122,
-                        ],
+                          122
+                        ]
                       ],
-                      "content": "point",
-                      "id": "word_1_7",
-                      "xWconf": 90,
+                      \\"content\\": \\"point\\",
+                      \\"id\\": \\"word_1_7\\",
+                      \\"xWconf\\": 90
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           374,
-                          93,
+                          93
                         ],
-                        Array [
+                        [
                           427,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "text",
-                      "id": "word_1_8",
-                      "xWconf": 93,
+                      \\"content\\": \\"text\\",
+                      \\"id\\": \\"word_1_8\\",
+                      \\"xWconf\\": 93
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           437,
-                          93,
+                          93
                         ],
-                        Array [
+                        [
                           463,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "to",
-                      "id": "word_1_9",
-                      "xWconf": 92,
+                      \\"content\\": \\"to\\",
+                      \\"id\\": \\"word_1_9\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           474,
-                          93,
+                          93
                         ],
-                        Array [
+                        [
                           526,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "test",
-                      "id": "word_1_10",
-                      "xWconf": 92,
+                      \\"content\\": \\"test\\",
+                      \\"id\\": \\"word_1_10\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           536,
-                          92,
+                          92
                         ],
-                        Array [
+                        [
                           580,
-                          116,
-                        ],
+                          116
+                        ]
                       ],
-                      "content": "the",
-                      "id": "word_1_11",
-                      "xWconf": 92,
-                    },
+                      \\"content\\": \\"the\\",
+                      \\"id\\": \\"word_1_11\\",
+                      \\"xWconf\\": 92
+                    }
                   ],
-                  "xAscenders": 6,
-                  "xDescenders": 6,
-                  "xSize": 30,
+                  \\"xAscenders\\": 6,
+                  \\"xDescenders\\": 6,
+                  \\"xSize\\": 30
                 },
-                Object {
-                  "baseline": Array [
+                {
+                  \\"baseline\\": [
                     0,
-                    -7,
+                    -7
                   ],
-                  "bbox": Array [
-                    Array [
+                  \\"bbox\\": [
+                    [
                       36,
-                      126,
+                      126
                     ],
-                    Array [
+                    [
                       618,
-                      157,
-                    ],
+                      157
+                    ]
                   ],
-                  "id": "line_1_2",
-                  "words": Array [
-                    Object {
-                      "bbox": Array [
-                        Array [
+                  \\"id\\": \\"line_1_2\\",
+                  \\"words\\": [
+                    {
+                      \\"bbox\\": [
+                        [
                           36,
-                          132,
+                          132
                         ],
-                        Array [
+                        [
                           81,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "ocr",
-                      "id": "word_1_12",
-                      "xWconf": 90,
+                      \\"content\\": \\"ocr\\",
+                      \\"id\\": \\"word_1_12\\",
+                      \\"xWconf\\": 90
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           91,
-                          126,
+                          126
                         ],
-                        Array [
+                        [
                           160,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "code",
-                      "id": "word_1_13",
-                      "xWconf": 91,
+                      \\"content\\": \\"code\\",
+                      \\"id\\": \\"word_1_13\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           172,
-                          126,
+                          126
                         ],
-                        Array [
+                        [
                           223,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "and",
-                      "id": "word_1_14",
-                      "xWconf": 90,
+                      \\"content\\": \\"and\\",
+                      \\"id\\": \\"word_1_14\\",
+                      \\"xWconf\\": 90
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           236,
-                          132,
+                          132
                         ],
-                        Array [
+                        [
                           286,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "see",
-                      "id": "word_1_15",
-                      "xWconf": 91,
+                      \\"content\\": \\"see\\",
+                      \\"id\\": \\"word_1_15\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           299,
-                          126,
+                          126
                         ],
-                        Array [
+                        [
                           314,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "if",
-                      "id": "word_1_16",
-                      "xWconf": 92,
+                      \\"content\\": \\"if\\",
+                      \\"id\\": \\"word_1_16\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           325,
-                          126,
+                          126
                         ],
-                        Array [
+                        [
                           339,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "it",
-                      "id": "word_1_17",
-                      "xWconf": 92,
+                      \\"content\\": \\"it\\",
+                      \\"id\\": \\"word_1_17\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           348,
-                          126,
+                          126
                         ],
-                        Array [
+                        [
                           433,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "works",
-                      "id": "word_1_18",
-                      "xWconf": 92,
+                      \\"content\\": \\"works\\",
+                      \\"id\\": \\"word_1_18\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           445,
-                          132,
+                          132
                         ],
-                        Array [
+                        [
                           478,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "on",
-                      "id": "word_1_19",
-                      "xWconf": 87,
+                      \\"content\\": \\"on\\",
+                      \\"id\\": \\"word_1_19\\",
+                      \\"xWconf\\": 87
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           500,
-                          126,
+                          126
                         ],
-                        Array [
+                        [
                           529,
-                          150,
-                        ],
+                          150
+                        ]
                       ],
-                      "content": "all",
-                      "id": "word_1_20",
-                      "xWconf": 87,
+                      \\"content\\": \\"all\\",
+                      \\"id\\": \\"word_1_20\\",
+                      \\"xWconf\\": 87
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           541,
-                          127,
+                          127
                         ],
-                        Array [
+                        [
                           618,
-                          157,
-                        ],
+                          157
+                        ]
                       ],
-                      "content": "types",
-                      "id": "word_1_21",
-                      "xWconf": 92,
-                    },
+                      \\"content\\": \\"types\\",
+                      \\"id\\": \\"word_1_21\\",
+                      \\"xWconf\\": 92
+                    }
                   ],
-                  "xAscenders": 6,
-                  "xDescenders": 7,
-                  "xSize": 31,
+                  \\"xAscenders\\": 6,
+                  \\"xDescenders\\": 7,
+                  \\"xSize\\": 31
                 },
-                Object {
-                  "baseline": Array [
+                {
+                  \\"baseline\\": [
                     0,
-                    0,
+                    0
                   ],
-                  "bbox": Array [
-                    Array [
+                  \\"bbox\\": [
+                    [
                       36,
-                      160,
+                      160
                     ],
-                    Array [
+                    [
                       223,
-                      184,
-                    ],
+                      184
+                    ]
                   ],
-                  "id": "line_1_3",
-                  "words": Array [
-                    Object {
-                      "bbox": Array [
-                        Array [
+                  \\"id\\": \\"line_1_3\\",
+                  \\"words\\": [
+                    {
+                      \\"bbox\\": [
+                        [
                           36,
-                          160,
+                          160
                         ],
-                        Array [
+                        [
                           64,
-                          184,
-                        ],
+                          184
+                        ]
                       ],
-                      "content": "of",
-                      "id": "word_1_22",
-                      "xWconf": 92,
+                      \\"content\\": \\"of\\",
+                      \\"id\\": \\"word_1_22\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           72,
-                          160,
+                          160
                         ],
-                        Array [
+                        [
                           113,
-                          184,
-                        ],
+                          184
+                        ]
                       ],
-                      "content": "file",
-                      "id": "word_1_23",
-                      "xWconf": 92,
+                      \\"content\\": \\"file\\",
+                      \\"id\\": \\"word_1_23\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           123,
-                          160,
+                          160
                         ],
-                        Array [
+                        [
                           223,
-                          184,
-                        ],
+                          184
+                        ]
                       ],
-                      "content": "format.",
-                      "id": "word_1_24",
-                      "xWconf": 91,
-                    },
+                      \\"content\\": \\"format.\\",
+                      \\"id\\": \\"word_1_24\\",
+                      \\"xWconf\\": 91
+                    }
                   ],
-                  "xAscenders": 6,
-                  "xDescenders": 7.2148418,
-                  "xSize": 31.214842,
-                },
-              ],
+                  \\"xAscenders\\": 6,
+                  \\"xDescenders\\": 7.2148418,
+                  \\"xSize\\": 31.214842
+                }
+              ]
             },
-            Object {
-              "id": "par_1_2",
-              "lang": "eng",
-              "lines": Array [
-                Object {
-                  "baseline": Array [
+            {
+              \\"id\\": \\"par_1_2\\",
+              \\"lang\\": \\"eng\\",
+              \\"lines\\": [
+                {
+                  \\"baseline\\": [
                     0,
-                    -7,
+                    -7
                   ],
-                  "bbox": Array [
-                    Array [
+                  \\"bbox\\": [
+                    [
                       36,
-                      194,
+                      194
                     ],
-                    Array [
+                    [
                       585,
-                      225,
-                    ],
+                      225
+                    ]
                   ],
-                  "id": "line_1_4",
-                  "words": Array [
-                    Object {
-                      "bbox": Array [
-                        Array [
+                  \\"id\\": \\"line_1_4\\",
+                  \\"words\\": [
+                    {
+                      \\"bbox\\": [
+                        [
                           36,
-                          194,
+                          194
                         ],
-                        Array [
+                        [
                           91,
-                          218,
-                        ],
+                          218
+                        ]
                       ],
-                      "content": "The",
-                      "id": "word_1_25",
-                      "xWconf": 92,
+                      \\"content\\": \\"The\\",
+                      \\"id\\": \\"word_1_25\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           102,
-                          194,
+                          194
                         ],
-                        Array [
+                        [
                           177,
-                          224,
-                        ],
+                          224
+                        ]
                       ],
-                      "content": "quick",
-                      "id": "word_1_26",
-                      "xWconf": 91,
+                      \\"content\\": \\"quick\\",
+                      \\"id\\": \\"word_1_26\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           189,
-                          194,
+                          194
                         ],
-                        Array [
+                        [
                           274,
-                          218,
-                        ],
+                          218
+                        ]
                       ],
-                      "content": "brown",
-                      "id": "word_1_27",
-                      "xWconf": 91,
+                      \\"content\\": \\"brown\\",
+                      \\"id\\": \\"word_1_27\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           287,
-                          194,
+                          194
                         ],
-                        Array [
+                        [
                           339,
-                          225,
-                        ],
+                          225
+                        ]
                       ],
-                      "content": "dog",
-                      "id": "word_1_28",
-                      "xWconf": 91,
+                      \\"content\\": \\"dog\\",
+                      \\"id\\": \\"word_1_28\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           348,
-                          194,
+                          194
                         ],
-                        Array [
+                        [
                           456,
-                          225,
-                        ],
+                          225
+                        ]
                       ],
-                      "content": "jumped",
-                      "id": "word_1_29",
-                      "xWconf": 91,
+                      \\"content\\": \\"jumped\\",
+                      \\"id\\": \\"word_1_29\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           468,
-                          200,
+                          200
                         ],
-                        Array [
+                        [
                           531,
-                          218,
-                        ],
+                          218
+                        ]
                       ],
-                      "content": "over",
-                      "id": "word_1_30",
-                      "xWconf": 91,
+                      \\"content\\": \\"over\\",
+                      \\"id\\": \\"word_1_30\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           540,
-                          194,
+                          194
                         ],
-                        Array [
+                        [
                           585,
-                          218,
-                        ],
+                          218
+                        ]
                       ],
-                      "content": "the",
-                      "id": "word_1_31",
-                      "xWconf": 92,
-                    },
+                      \\"content\\": \\"the\\",
+                      \\"id\\": \\"word_1_31\\",
+                      \\"xWconf\\": 92
+                    }
                   ],
-                  "xAscenders": 6,
-                  "xDescenders": 7,
-                  "xSize": 31,
+                  \\"xAscenders\\": 6,
+                  \\"xDescenders\\": 7,
+                  \\"xSize\\": 31
                 },
-                Object {
-                  "baseline": Array [
+                {
+                  \\"baseline\\": [
                     0,
-                    -7,
+                    -7
                   ],
-                  "bbox": Array [
-                    Array [
+                  \\"bbox\\": [
+                    [
                       37,
-                      228,
+                      228
                     ],
-                    Array [
+                    [
                       585,
-                      259,
-                    ],
+                      259
+                    ]
                   ],
-                  "id": "line_1_5",
-                  "words": Array [
-                    Object {
-                      "bbox": Array [
-                        Array [
+                  \\"id\\": \\"line_1_5\\",
+                  \\"words\\": [
+                    {
+                      \\"bbox\\": [
+                        [
                           37,
-                          228,
+                          228
                         ],
-                        Array [
+                        [
                           92,
-                          259,
-                        ],
+                          259
+                        ]
                       ],
-                      "content": "lazy",
-                      "id": "word_1_32",
-                      "xWconf": 92,
+                      \\"content\\": \\"lazy\\",
+                      \\"id\\": \\"word_1_32\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           103,
-                          228,
+                          228
                         ],
-                        Array [
+                        [
                           153,
-                          252,
-                        ],
+                          252
+                        ]
                       ],
-                      "content": "fox.",
-                      "id": "word_1_33",
-                      "xWconf": 92,
+                      \\"content\\": \\"fox.\\",
+                      \\"id\\": \\"word_1_33\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           165,
-                          228,
+                          228
                         ],
-                        Array [
+                        [
                           220,
-                          252,
-                        ],
+                          252
+                        ]
                       ],
-                      "content": "The",
-                      "id": "word_1_34",
-                      "xWconf": 92,
+                      \\"content\\": \\"The\\",
+                      \\"id\\": \\"word_1_34\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           232,
-                          228,
+                          228
                         ],
-                        Array [
+                        [
                           307,
-                          258,
-                        ],
+                          258
+                        ]
                       ],
-                      "content": "quick",
-                      "id": "word_1_35",
-                      "xWconf": 91,
+                      \\"content\\": \\"quick\\",
+                      \\"id\\": \\"word_1_35\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           319,
-                          228,
+                          228
                         ],
-                        Array [
+                        [
                           404,
-                          252,
-                        ],
+                          252
+                        ]
                       ],
-                      "content": "brown",
-                      "id": "word_1_36",
-                      "xWconf": 91,
+                      \\"content\\": \\"brown\\",
+                      \\"id\\": \\"word_1_36\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           417,
-                          228,
+                          228
                         ],
-                        Array [
+                        [
                           468,
-                          259,
-                        ],
+                          259
+                        ]
                       ],
-                      "content": "dog",
-                      "id": "word_1_37",
-                      "xWconf": 91,
+                      \\"content\\": \\"dog\\",
+                      \\"id\\": \\"word_1_37\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           478,
-                          228,
+                          228
                         ],
-                        Array [
+                        [
                           585,
-                          259,
-                        ],
+                          259
+                        ]
                       ],
-                      "content": "jumped",
-                      "id": "word_1_38",
-                      "xWconf": 92,
-                    },
+                      \\"content\\": \\"jumped\\",
+                      \\"id\\": \\"word_1_38\\",
+                      \\"xWconf\\": 92
+                    }
                   ],
-                  "xAscenders": 6,
-                  "xDescenders": 7,
-                  "xSize": 31,
+                  \\"xAscenders\\": 6,
+                  \\"xDescenders\\": 7,
+                  \\"xSize\\": 31
                 },
-                Object {
-                  "baseline": Array [
+                {
+                  \\"baseline\\": [
                     0,
-                    -7,
+                    -7
                   ],
-                  "bbox": Array [
-                    Array [
+                  \\"bbox\\": [
+                    [
                       36,
-                      262,
+                      262
                     ],
-                    Array [
+                    [
                       597,
-                      293,
-                    ],
+                      293
+                    ]
                   ],
-                  "id": "line_1_6",
-                  "words": Array [
-                    Object {
-                      "bbox": Array [
-                        Array [
+                  \\"id\\": \\"line_1_6\\",
+                  \\"words\\": [
+                    {
+                      \\"bbox\\": [
+                        [
                           36,
-                          268,
+                          268
                         ],
-                        Array [
+                        [
                           99,
-                          286,
-                        ],
+                          286
+                        ]
                       ],
-                      "content": "over",
-                      "id": "word_1_39",
-                      "xWconf": 90,
+                      \\"content\\": \\"over\\",
+                      \\"id\\": \\"word_1_39\\",
+                      \\"xWconf\\": 90
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           109,
-                          262,
+                          262
                         ],
-                        Array [
+                        [
                           153,
-                          286,
-                        ],
+                          286
+                        ]
                       ],
-                      "content": "the",
-                      "id": "word_1_40",
-                      "xWconf": 92,
+                      \\"content\\": \\"the\\",
+                      \\"id\\": \\"word_1_40\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           165,
-                          262,
+                          262
                         ],
-                        Array [
+                        [
                           221,
-                          293,
-                        ],
+                          293
+                        ]
                       ],
-                      "content": "lazy",
-                      "id": "word_1_41",
-                      "xWconf": 92,
+                      \\"content\\": \\"lazy\\",
+                      \\"id\\": \\"word_1_41\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           231,
-                          262,
+                          262
                         ],
-                        Array [
+                        [
                           281,
-                          286,
-                        ],
+                          286
+                        ]
                       ],
-                      "content": "fox.",
-                      "id": "word_1_42",
-                      "xWconf": 91,
+                      \\"content\\": \\"fox.\\",
+                      \\"id\\": \\"word_1_42\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           294,
-                          262,
+                          262
                         ],
-                        Array [
+                        [
                           349,
-                          286,
-                        ],
+                          286
+                        ]
                       ],
-                      "content": "The",
-                      "id": "word_1_43",
-                      "xWconf": 92,
+                      \\"content\\": \\"The\\",
+                      \\"id\\": \\"word_1_43\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           360,
-                          262,
+                          262
                         ],
-                        Array [
+                        [
                           435,
-                          292,
-                        ],
+                          292
+                        ]
                       ],
-                      "content": "quick",
-                      "id": "word_1_44",
-                      "xWconf": 91,
+                      \\"content\\": \\"quick\\",
+                      \\"id\\": \\"word_1_44\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           447,
-                          262,
+                          262
                         ],
-                        Array [
+                        [
                           532,
-                          286,
-                        ],
+                          286
+                        ]
                       ],
-                      "content": "brown",
-                      "id": "word_1_45",
-                      "xWconf": 91,
+                      \\"content\\": \\"brown\\",
+                      \\"id\\": \\"word_1_45\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           545,
-                          262,
+                          262
                         ],
-                        Array [
+                        [
                           597,
-                          293,
-                        ],
+                          293
+                        ]
                       ],
-                      "content": "dog",
-                      "id": "word_1_46",
-                      "xWconf": 90,
-                    },
+                      \\"content\\": \\"dog\\",
+                      \\"id\\": \\"word_1_46\\",
+                      \\"xWconf\\": 90
+                    }
                   ],
-                  "xAscenders": 6,
-                  "xDescenders": 7,
-                  "xSize": 31,
+                  \\"xAscenders\\": 6,
+                  \\"xDescenders\\": 7,
+                  \\"xSize\\": 31
                 },
-                Object {
-                  "baseline": Array [
+                {
+                  \\"baseline\\": [
                     0,
-                    -7,
+                    -7
                   ],
-                  "bbox": Array [
-                    Array [
+                  \\"bbox\\": [
+                    [
                       43,
-                      296,
+                      296
                     ],
-                    Array [
+                    [
                       561,
-                      327,
-                    ],
+                      327
+                    ]
                   ],
-                  "id": "line_1_7",
-                  "words": Array [
-                    Object {
-                      "bbox": Array [
-                        Array [
+                  \\"id\\": \\"line_1_7\\",
+                  \\"words\\": [
+                    {
+                      \\"bbox\\": [
+                        [
                           43,
-                          296,
+                          296
                         ],
-                        Array [
+                        [
                           150,
-                          327,
-                        ],
+                          327
+                        ]
                       ],
-                      "content": "jumped",
-                      "id": "word_1_47",
-                      "xWconf": 92,
+                      \\"content\\": \\"jumped\\",
+                      \\"id\\": \\"word_1_47\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           162,
-                          302,
+                          302
                         ],
-                        Array [
+                        [
                           226,
-                          320,
-                        ],
+                          320
+                        ]
                       ],
-                      "content": "over",
-                      "id": "word_1_48",
-                      "xWconf": 92,
+                      \\"content\\": \\"over\\",
+                      \\"id\\": \\"word_1_48\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           235,
-                          296,
+                          296
                         ],
-                        Array [
+                        [
                           279,
-                          320,
-                        ],
+                          320
+                        ]
                       ],
-                      "content": "the",
-                      "id": "word_1_49",
-                      "xWconf": 92,
+                      \\"content\\": \\"the\\",
+                      \\"id\\": \\"word_1_49\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           292,
-                          296,
+                          296
                         ],
-                        Array [
+                        [
                           347,
-                          327,
-                        ],
+                          327
+                        ]
                       ],
-                      "content": "lazy",
-                      "id": "word_1_50",
-                      "xWconf": 88,
+                      \\"content\\": \\"lazy\\",
+                      \\"id\\": \\"word_1_50\\",
+                      \\"xWconf\\": 88
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           357,
-                          296,
+                          296
                         ],
-                        Array [
+                        [
                           407,
-                          320,
-                        ],
+                          320
+                        ]
                       ],
-                      "content": "fox.",
-                      "id": "word_1_51",
-                      "xWconf": 91,
+                      \\"content\\": \\"fox.\\",
+                      \\"id\\": \\"word_1_51\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           420,
-                          296,
+                          296
                         ],
-                        Array [
+                        [
                           475,
-                          320,
-                        ],
+                          320
+                        ]
                       ],
-                      "content": "The",
-                      "id": "word_1_52",
-                      "xWconf": 91,
+                      \\"content\\": \\"The\\",
+                      \\"id\\": \\"word_1_52\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           486,
-                          296,
+                          296
                         ],
-                        Array [
+                        [
                           561,
-                          326,
-                        ],
+                          326
+                        ]
                       ],
-                      "content": "quick",
-                      "id": "word_1_53",
-                      "xWconf": 91,
-                    },
+                      \\"content\\": \\"quick\\",
+                      \\"id\\": \\"word_1_53\\",
+                      \\"xWconf\\": 91
+                    }
                   ],
-                  "xAscenders": 6,
-                  "xDescenders": 7,
-                  "xSize": 31,
+                  \\"xAscenders\\": 6,
+                  \\"xDescenders\\": 7,
+                  \\"xSize\\": 31
                 },
-                Object {
-                  "baseline": Array [
+                {
+                  \\"baseline\\": [
                     0,
-                    -7,
+                    -7
                   ],
-                  "bbox": Array [
-                    Array [
+                  \\"bbox\\": [
+                    [
                       37,
-                      330,
+                      330
                     ],
-                    Array [
+                    [
                       561,
-                      361,
-                    ],
+                      361
+                    ]
                   ],
-                  "id": "line_1_8",
-                  "words": Array [
-                    Object {
-                      "bbox": Array [
-                        Array [
+                  \\"id\\": \\"line_1_8\\",
+                  \\"words\\": [
+                    {
+                      \\"bbox\\": [
+                        [
                           37,
-                          330,
+                          330
                         ],
-                        Array [
+                        [
                           122,
-                          354,
-                        ],
+                          354
+                        ]
                       ],
-                      "content": "brown",
-                      "id": "word_1_54",
-                      "xWconf": 92,
+                      \\"content\\": \\"brown\\",
+                      \\"id\\": \\"word_1_54\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           135,
-                          330,
+                          330
                         ],
-                        Array [
+                        [
                           187,
-                          361,
-                        ],
+                          361
+                        ]
                       ],
-                      "content": "dog",
-                      "id": "word_1_55",
-                      "xWconf": 92,
+                      \\"content\\": \\"dog\\",
+                      \\"id\\": \\"word_1_55\\",
+                      \\"xWconf\\": 92
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           196,
-                          330,
+                          330
                         ],
-                        Array [
+                        [
                           304,
-                          361,
-                        ],
+                          361
+                        ]
                       ],
-                      "content": "jumped",
-                      "id": "word_1_56",
-                      "xWconf": 91,
+                      \\"content\\": \\"jumped\\",
+                      \\"id\\": \\"word_1_56\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           316,
-                          336,
+                          336
                         ],
-                        Array [
+                        [
                           379,
-                          354,
-                        ],
+                          354
+                        ]
                       ],
-                      "content": "over",
-                      "id": "word_1_57",
-                      "xWconf": 90,
+                      \\"content\\": \\"over\\",
+                      \\"id\\": \\"word_1_57\\",
+                      \\"xWconf\\": 90
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           388,
-                          330,
+                          330
                         ],
-                        Array [
+                        [
                           433,
-                          354,
-                        ],
+                          354
+                        ]
                       ],
-                      "content": "the",
-                      "id": "word_1_58",
-                      "xWconf": 91,
+                      \\"content\\": \\"the\\",
+                      \\"id\\": \\"word_1_58\\",
+                      \\"xWconf\\": 91
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           445,
-                          330,
+                          330
                         ],
-                        Array [
+                        [
                           500,
-                          361,
-                        ],
+                          361
+                        ]
                       ],
-                      "content": "lazy",
-                      "id": "word_1_59",
-                      "xWconf": 89,
+                      \\"content\\": \\"lazy\\",
+                      \\"id\\": \\"word_1_59\\",
+                      \\"xWconf\\": 89
                     },
-                    Object {
-                      "bbox": Array [
-                        Array [
+                    {
+                      \\"bbox\\": [
+                        [
                           511,
-                          330,
+                          330
                         ],
-                        Array [
+                        [
                           561,
-                          354,
-                        ],
+                          354
+                        ]
                       ],
-                      "content": "fox.",
-                      "id": "word_1_60",
-                      "xWconf": 90,
-                    },
+                      \\"content\\": \\"fox.\\",
+                      \\"id\\": \\"word_1_60\\",
+                      \\"xWconf\\": 90
+                    }
                   ],
-                  "xAscenders": 6,
-                  "xDescenders": 7,
-                  "xSize": 31,
-                },
-              ],
-            },
-          ],
-        },
+                  \\"xAscenders\\": 6,
+                  \\"xDescenders\\": 7,
+                  \\"xSize\\": 31
+                }
+              ]
+            }
+          ]
+        }
       ],
-      "id": "page_1",
-      "image": "phototest.tif",
-      "ppageno": 0,
-    },
-  ],
-}
+      \\"id\\": \\"page_1\\",
+      \\"image\\": \\"phototest.tif\\",
+      \\"ppageno\\": 0
+    }
+  ]
+}"
 `;

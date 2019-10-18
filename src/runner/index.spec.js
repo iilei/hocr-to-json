@@ -1,11 +1,13 @@
+import fs from 'fs'
+
 import runner from './index'
 
 const defautArgs = ['hocr-json', '*.hocr']
 
 describe('runner', () => {
   it('should invoke the desired task', async () => {
-    const result = await runner(...defautArgs)
-    expect(result).toMatchSnapshot()
+    await runner(...defautArgs)
+    expect(fs.readFileSync('stub/phototest.json', 'utf-8')).toMatchSnapshot()
 
     // const taskMock = require('../tasks').myTask
     // const { appendBasePath, setAuthToken } = require('../modules/axiosInstance')

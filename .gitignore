@@ -2,6 +2,8 @@ node_modules/
 coverage/
 lib
 
+stub/*.json
+
 *.tgz
 
 # Yarn
