@@ -2,11 +2,15 @@ import fs from 'fs'
 
 import { transform } from 'camaro'
 import { camelCase } from 'change-case'
+import traverse, { traverseFactory } from '../modules/traverse'
 
 const xml = fs.readFileSync('stub/phototest.hocr', 'utf-8')
 const seperator = /\s+/
 const firstSpaceSeperated = /(?<=^\s?\S+)\s/
 const quotationMarks = [/^"|'/, /"|'$/]
+const numberProps = ['x_size', 'x_descenders', 'x_ascenders', 'x_wconf', 'ppageno'].map(val =>
+  camelCase(val),
+)
 
 const template = {
   ocrSystem: '/html/head/meta[@name="ocr-system"]/@content',
@@ -61,54 +65,7 @@ const castBBox = str => {
   return [[x0, y0], [x1, y1]]
 }
 
-const traverseBBoxes = obj => {
-  const castables = ['bbox']
-  Object.entries(obj).forEach(([key, val]) => {
-    if (val && typeof val === 'object') {
-      traverseBBoxes(val)
-    } else if (castables.includes(key)) {
-      Object.assign(obj, { [key]: castBBox(val) })
-    }
-  })
-}
-
-const traverseBaseLines = obj => {
-  const castables = ['baseline']
-  Object.entries(obj).forEach(([key, val]) => {
-    if (val && typeof val === 'object') {
-      traverseBaseLines(val)
-    } else if (castables.includes(key)) {
-      Object.assign(obj, { [key]: castToArrayOfNumbers(val) })
-    }
-  })
-}
-
-const traverseImages = obj => {
-  const castables = ['image']
-  Object.entries(obj).forEach(([key, val]) => {
-    if (val && typeof val === 'object') {
-      traverseImages(val)
-    } else if (castables.includes(key)) {
-      Object.assign(obj, {
-        [key]: val.replace(quotationMarks[0], '').replace(quotationMarks[1], ''),
-      })
-    }
-  })
-}
-
-const traverseNumbers = obj => {
-  const castables = ['x_size', 'x_descenders', 'x_ascenders', 'x_wconf', 'ppageno'].map(val =>
-    camelCase(val),
-  )
-  Object.entries(obj).forEach(([key, val]) => {
-    if (val && typeof val === 'object') {
-      traverseNumbers(val)
-    } else if (castables.includes(key)) {
-      Object.assign(obj, { [key]: parseFloat(val) || 0 })
-    }
-  })
-}
-
+const parseFloatOrNull = val => parseFloat(val) || 0
 const flatten = (acc, cur) => ({ ...cur, ...acc })
 
 const toProps = raw => {
@@ -121,27 +78,17 @@ const toProps = raw => {
     .reduce(flatten, {})
 }
 
-const traverseTitles = obj => {
-  const castables = ['title']
-  Object.entries(obj).forEach(([key, val]) => {
-    if (val && typeof val === 'object') {
-      traverseTitles(val)
-    } else if (castables.includes(key)) {
-      Object.assign(obj, toProps(val))
-    }
-  })
-}
+const propConversionMerge = (_obj, [, val]) => Object.assign(_obj, { ...toProps(val) })
+
+const unQuote = val => val.replace(quotationMarks[0], '').replace(quotationMarks[1], '')
 
 const runner = async () => {
   const result = await transform(xml, template)
-  traverseTitles(result)
-  traverseBBoxes(result)
-  traverseBaseLines(result)
-  traverseImages(result)
-  traverseNumbers(result)
-
-  // TODO getAllCAreas / paras / lines -- and then format markdownish => assign to result.@raw
-
+  traverseFactory(result, propConversionMerge, 'title')
+  traverse(result, castBBox, 'bbox')
+  traverse(result, castToArrayOfNumbers, 'baseline')
+  traverse(result, unQuote, 'image')
+  traverse(result, parseFloatOrNull, ...numberProps)
   return result
 }
 
