@@ -2,6 +2,8 @@
 
 exports[`runner should invoke the desired task 1`] = `
 Object {
+  "contentType": "text/html;charset=utf-8",
+  "ocrCapabilities": "ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf",
   "ocrSystem": "tesseract 4.1.0-rc1-752-g8b69",
   "pages": Array [
     Object {

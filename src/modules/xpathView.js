@@ -1,5 +1,7 @@
 const xpathView = {
+  contentType: '/html/head/meta[@http-equiv="Content-Type"]/@content',
   ocrSystem: '/html/head/meta[@name="ocr-system"]/@content',
+  ocrCapabilities: '/html/head/meta[@name="ocr-capabilities"]/@content',
   pages: [
     '//div[@class="ocr_page"]',
     {
