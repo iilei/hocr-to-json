@@ -11,7 +11,12 @@
     browser: true
     node: true
   rules:
-    "import/newline-after-import": ["error"]
+    import/newline-after-import:
+      - error
+    no-param-reassign:
+      - error
+      -
+         props: false
     linebreak-style:
       - error
       - unix

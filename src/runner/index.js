@@ -5,6 +5,7 @@ import {
   castToArrayOfNumbers,
   castToMatrix,
   constants,
+  dropProp,
   parseFloatOrNull,
   propConversionMerge,
   traverse,
@@ -20,10 +21,12 @@ const { numberProps } = constants
 const runner = async () => {
   const result = await transform(xml, xpathView)
   traverseFactory(result, propConversionMerge, 'title')
+  traverseFactory(result, dropProp, 'title')
   traverse(result, castToMatrix, 'bbox')
   traverse(result, castToArrayOfNumbers, 'baseline')
   traverse(result, unQuote, 'image')
   traverse(result, parseFloatOrNull, ...numberProps)
+
   return result
 }
 
