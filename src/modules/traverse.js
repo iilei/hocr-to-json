@@ -3,10 +3,8 @@ const traverseFactory = (obj, operation, ...cast) => {
 
   const traverseFunc = _obj => {
     Object.entries(_obj).forEach(([key, val]) => {
-      if (val && typeof val === 'object' && !Array.isArray(val)) {
+      if (val && typeof val === 'object') {
         traverseFunc(val)
-      } else if (Array.isArray(val)) {
-        val.forEach(item => traverseFunc(item))
       } else if (cast.includes(key)) {
         operation(_obj, [key, val])
       }
