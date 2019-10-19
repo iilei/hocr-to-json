@@ -20,6 +20,18 @@
     linebreak-style:
       - error
       - unix
+    camelcase:
+      - error
+      -
+        allow:
+          # exception for semver'ish imports
+          - ^v\d
+    no-underscore-dangle:
+      - error
+      -
+        allow:
+          # exception for meta
+          - _meta
     no-magic-numbers:
       - warn
       -

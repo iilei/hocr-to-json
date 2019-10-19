@@ -5,7 +5,7 @@ import runner from './index'
 const defautArgs = ['hocr-json', '*.hocr']
 
 describe('runner', () => {
-  it('should invoke the desired task', async () => {
+  it('should invoke the desired task with defaults', async () => {
     await runner(...defautArgs)
     expect(fs.readFileSync('stub/phototest.json', 'utf-8')).toMatchSnapshot()
 

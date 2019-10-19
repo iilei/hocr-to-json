@@ -1,6 +1,5 @@
 import parseFloatOrNull from './parseFloatOrNull'
-
-const seperator = /\s+/
+import seperator from './seperator'
 
 const castToArrayOfNumbers = str =>
   str

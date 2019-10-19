@@ -1,6 +1,6 @@
 {
   "name": "hocr-to-json",
-  "version": "0.13.0",
+  "version": "0.0.0-no-release-yet",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "globby": "^10.0.1",
     "json-stable-stringify": "^1.0.1",
     "lodash": "^4.17.15",
+    "semver": "^6.3.0",
     "yargs": "^14.0.0"
   },
   "devDependencies": {

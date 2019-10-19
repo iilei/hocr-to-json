@@ -1,6 +1,5 @@
 import fs from 'fs'
-import JSONstringify from 'json-stable-stringify';
-
+import JSONstringify from 'json-stable-stringify'
 import { transform } from 'camaro'
 import {
   castToArrayOfNumbers,
@@ -12,15 +11,26 @@ import {
   traverse,
   traverseFactory,
   unQuote,
-  xpathView,
 } from '../modules'
+import { bestMatch } from '../modules/view'
+
+import * as views from '../views'
 
 const xml = fs.readFileSync('stub/phototest.hocr', 'utf-8')
 
-const { numberProps } = constants
+const { numberProps, seperator } = constants
 
 const runner = async () => {
-  const result = await transform(xml, xpathView)
+  // 2-Step process; first metadata, then decide which _meta to apply
+  const meta = await transform(xml, views._meta)
+
+  const [engine, version] = meta.ocrSystem.split(seperator)
+
+  const view = bestMatch(views, engine, version)
+
+  const body = await transform(xml, view)
+
+  const result = { ...meta, ...body }
   traverseFactory(result, propConversionMerge, 'title')
   traverseFactory(result, dropProp, 'title')
   traverse(result, castToMatrix, 'bbox')
@@ -28,7 +38,9 @@ const runner = async () => {
   traverse(result, unQuote, 'image')
   traverse(result, parseFloatOrNull, ...numberProps)
 
-  fs.writeFileSync('stub/phototest.json', JSONstringify(result, { space: '  ' }), {encoding: 'utf-8'})
+  fs.writeFileSync('stub/phototest.json', JSONstringify(result, { space: '  ' }), {
+    encoding: 'utf-8',
+  })
 
   return result
 }
