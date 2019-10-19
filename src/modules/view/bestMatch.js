@@ -1,10 +1,11 @@
 import semver from 'semver'
-import { sortBy as _sortBy } from 'lodash'
-import { constants } from '..'
+import constants from '../constants'
 
 const {
   defaultView: { engine: defaultEngine, version: defaultVersion },
 } = constants
+
+const toRange = tag => `^${semver.coerce(tag)}`
 
 /**
  * @param {Object} views views
@@ -17,16 +18,12 @@ const bestMatch = (views, engine, version) => {
   //   e.g. views.tesseract['4.1.0-rc1'] based on
   //   <meta name='ocr-system' content='tesseract 4.1.0-rc1-752-g8b69' />
   //   https://jubianchi.github.io/semver-check/#/^4.1.0-rc1/4.1.0-rc1-752-g8b69
-  const matching = Object.entries(views[engine] || {}).filter(([key]) =>
-    semver.satisfies(version, key),
-  )
-  if (matching.length) {
-    // TODO add tests for the following line, ensuring
-    //    that for version '1.2.3' on a collection of views including
-    //    {'1.2.3', '1.x || >=2.5.0 || 5.0.0 - 7.2.3': <mock>}, <mock> is returned
-    return Object.values(_sortBy(matching, [arr => arr[0]]).pop())[0]
-  }
-  return views[defaultEngine][defaultVersion]
+
+  const matchingVersion =
+    semver.maxSatisfying(Object.keys(views[engine]), toRange(version)) || defaultVersion
+  const useVersion = matchingVersion === null ? defaultVersion : matchingVersion
+
+  return views[defaultEngine][useVersion]
 }
 
 export default bestMatch
