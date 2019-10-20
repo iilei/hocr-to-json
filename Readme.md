@@ -1,5 +1,8 @@
 # Hocr to JSON - *WIP*
 
+![alt text](/stub/example.png "Use Case; render on canvas")
+
+
 ## WORK IN PROGRESS
 
 Simple tool to convert [.hocr](https://en.wikipedia.org/wiki/HOCR) files to json for further processing
