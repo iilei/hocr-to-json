@@ -32,6 +32,16 @@ exports[`runner should invoke the desired task with defaults 1`] = `
           \\"id\\": \\"block_1_1\\",
           \\"pars\\": [
             {
+              \\"bbox\\": [
+                [
+                  36,
+                  92
+                ],
+                [
+                  618,
+                  184
+                ]
+              ],
               \\"id\\": \\"par_1_1\\",
               \\"lang\\": \\"eng\\",
               \\"lines\\": [
@@ -464,6 +474,16 @@ exports[`runner should invoke the desired task with defaults 1`] = `
               ]
             },
             {
+              \\"bbox\\": [
+                [
+                  36,
+                  194
+                ],
+                [
+                  597,
+                  361
+                ]
+              ],
               \\"id\\": \\"par_1_2\\",
               \\"lang\\": \\"eng\\",
               \\"lines\\": [

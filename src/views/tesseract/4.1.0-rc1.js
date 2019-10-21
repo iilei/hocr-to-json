@@ -14,6 +14,7 @@ const xpathView = {
             {
               id: './@id',
               lang: './attribute::lang',
+              title: './@title',
               lines: [
                 './span[@class="ocr_line"]',
                 {
